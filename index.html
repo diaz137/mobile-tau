@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile.tau — Телефоны, Аксессуары, Ремонт</title>
+  <meta name="description" content="Магазин Mobile.tau: новые и б/у телефоны, аксессуары, ремонт и прошивка. Алматы." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <span class="logo__icon">📱</span>
+      <span class="logo__text">Mobile<span class="logo__dot">.tau</span></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#catalog" class="nav__link">Каталог</a>
+      <a href="#services" class="nav__link">Услуги</a>
+      <a href="#about" class="nav__link">О нас</a>
+      <a href="#contact" class="nav__link">Контакты</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="https://wa.me/77753533067" target="_blank" class="btn btn--whatsapp">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Связаться
+      </a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="hero__bg"></div>
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <div class="hero__badge">🇰🇿 Магазин в Казахстане</div>
+      <h1 class="hero__title">
+        Телефоны, аксессуары<br/>и<span class="hero__title--accent"> ремонт</span>
+      </h1>
+      <p class="hero__desc">
+        Продаём новые и б/у смартфоны, делаем ремонт любой сложности,<br/>прошивку и разблокировку. Быстро, качественно, с гарантией.
+      </p>
+      <div class="hero__btns">
+        <a href="#catalog" class="btn btn--primary btn--lg">Смотреть каталог</a>
+        <button class="btn btn--outline btn--lg" id="heroRepairBtn">Узнать стоимость ремонта</button>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat"><span class="hero__stat-num">500+</span><span class="hero__stat-label">устройств в наличии</span></div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat"><span class="hero__stat-num">3 года</span><span class="hero__stat-label">на рынке</span></div>
+        <div class="hero__stat-divider"></div>
+        <div class="hero__stat"><span class="hero__stat-num">98%</span><span class="hero__stat-label">довольных клиентов</span></div>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__phone-mock">
+        <div class="phone-mock">
+          <div class="phone-mock__screen">
+            <div class="phone-mock__notch"></div>
+            <div class="phone-mock__content">
+              <div class="phone-mock__bar"></div>
+              <div class="phone-mock__bar phone-mock__bar--short"></div>
+              <div class="phone-mock__grid">
+                <div class="phone-mock__app"></div>
+                <div class="phone-mock__app"></div>
+                <div class="phone-mock__app"></div>
+                <div class="phone-mock__app"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__glow"></div>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <div class="hero__scroll-dot"></div>
+  </div>
+</section>
+
+<!-- ========== CATALOG ========== -->
+<section class="section catalog" id="catalog">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__badge">Каталог</div>
+      <h2 class="section__title">Телефоны в наличии</h2>
+      <p class="section__desc">Широкий выбор новых и б/у смартфонов с гарантией</p>
+    </div>
+
+    <div class="catalog__tabs">
+      <button class="tab-btn tab-btn--active" data-tab="all">Все</button>
+      <button class="tab-btn" data-tab="new">Новые</button>
+      <button class="tab-btn" data-tab="used">Б/У</button>
+    </div>
+
+    <div class="catalog__grid" id="catalogGrid">
+      <!-- Phone cards injected by JS -->
+    </div>
+
+    <div class="catalog__more">
+      <button class="btn btn--outline" id="loadMoreBtn">Показать ещё</button>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SERVICES ========== -->
+<section class="section services" id="services">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__badge">Услуги</div>
+      <h2 class="section__title">Ремонт и сервис</h2>
+      <p class="section__desc">Профессиональный ремонт смартфонов любых брендов. Работаем быстро, даём гарантию.</p>
+    </div>
+
+    <div class="services__grid">
+      <div class="service-card">
+        <div class="service-card__icon">🔧</div>
+        <h3 class="service-card__title">Замена экрана</h3>
+        <p class="service-card__desc">Замена треснувшего дисплея на оригинальный или качественный аналог. Работа при вас.</p>
+        <div class="service-card__price">от <strong>5 000 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">🔋</div>
+        <h3 class="service-card__title">Замена батареи</h3>
+        <p class="service-card__desc">Телефон быстро разряжается? Заменим аккумулятор на новый с гарантией 6 месяцев.</p>
+        <div class="service-card__price">от <strong>3 000 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">⚡</div>
+        <h3 class="service-card__title">Ремонт зарядки</h3>
+        <p class="service-card__desc">Чистка и замена разъёма зарядки, ремонт после попадания воды, восстановление контактов.</p>
+        <div class="service-card__price">от <strong>3 500 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">💧</div>
+        <h3 class="service-card__title">Ремонт после воды</h3>
+        <p class="service-card__desc">Диагностика и восстановление телефона после попадания воды. Чем быстрее принесёте — тем лучше.</p>
+        <div class="service-card__price">от <strong>8 000 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+      <div class="service-card service-card--highlight">
+        <div class="service-card__icon">💻</div>
+        <h3 class="service-card__title">Прошивка телефона</h3>
+        <p class="service-card__desc">Установка официальной прошивки, обновление системы, решение программных проблем любой сложности.</p>
+        <div class="service-card__price">от <strong>4 000 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+      <div class="service-card service-card--highlight">
+        <div class="service-card__icon">🔓</div>
+        <h3 class="service-card__title">Разблокировка</h3>
+        <p class="service-card__desc">Разблокировка от оператора, снятие iCloud (Apple ID), обход FRP (Google account) на Android.</p>
+        <div class="service-card__price">от <strong>2 500 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">🎙️</div>
+        <h3 class="service-card__title">Замена микрофона / динамика</h3>
+        <p class="service-card__desc">Плохой звук при звонках? Заменим микрофон, разговорный или основной динамик.</p>
+        <div class="service-card__price">от <strong>4 500 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">📷</div>
+        <h3 class="service-card__title">Ремонт камеры</h3>
+        <p class="service-card__desc">Замена фронтальной или основной камеры. Устранение артефактов и расфокуса.</p>
+        <div class="service-card__price">от <strong>5 500 ₸</strong></div>
+        <button class="btn btn--ghost service-card__btn">Узнать стоимость</button>
+      </div>
+    </div>
+
+    <div class="services__cta">
+      <p>Не нашли свою проблему? Мы ремонтируем всё!</p>
+      <button class="btn btn--primary btn--lg" id="servicesRepairBtn">Узнать стоимость ремонта</button>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHY US ========== -->
+<section class="section whyus" id="about">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__badge">О нас</div>
+      <h2 class="section__title">Почему выбирают нас</h2>
+    </div>
+    <div class="whyus__grid">
+      <div class="whyus__item">
+        <div class="whyus__icon">⚡</div>
+        <h3>Быстрый ремонт</h3>
+        <p>Большинство ремонтов выполняем за 30–60 минут прямо при вас</p>
+      </div>
+      <div class="whyus__item">
+        <div class="whyus__icon">🛡️</div>
+        <h3>Гарантия</h3>
+        <p>Даём письменную гарантию до 6 месяцев на все виды ремонта</p>
+      </div>
+      <div class="whyus__item">
+        <div class="whyus__icon">💎</div>
+        <h3>Оригинальные запчасти</h3>
+        <p>Используем только оригинальные или сертифицированные детали</p>
+      </div>
+      <div class="whyus__item">
+        <div class="whyus__icon">💰</div>
+        <h3>Честные цены</h3>
+        <p>Никаких скрытых платежей. Оплата только после выполнения работы</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="contact__inner">
+      <div class="contact__info">
+        <div class="section__badge">Контакты</div>
+        <h2 class="section__title" style="text-align:left;">Свяжитесь с нами</h2>
+        <p class="section__desc" style="text-align:left;">Ответим на все вопросы в WhatsApp — быстро и удобно</p>
+        <div class="contact__items">
+          <div class="contact__item">
+            <span class="contact__icon">📍</span>
+            <div>
+              <strong>Адрес</strong>
+              <p>Алматы, ул. Примерная, 1</p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <span class="contact__icon">🕐</span>
+            <div>
+              <strong>Режим работы</strong>
+              <p>Пн–Вс: 9:00–21:00</p>
+            </div>
+          </div>
+          <div class="contact__item">
+            <span class="contact__icon">📞</span>
+            <div>
+              <strong>Телефон / WhatsApp</strong>
+              <p><a href="https://wa.me/77753533067" target="_blank">+7 775 353 30 67</a></p>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/77753533067" target="_blank" class="btn btn--whatsapp btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Написать в WhatsApp
+        </a>
+      </div>
+      <div class="contact__form-block">
+        <div class="contact__form-card">
+          <h3>Напишите нам</h3>
+          <p>Оставьте ваш вопрос — ответим в течение нескольких минут</p>
+          <form id="contactForm" class="contact__form">
+            <div class="form-group">
+              <label>Ваше имя</label>
+              <input type="text" name="name" placeholder="Алихан" required />
+            </div>
+            <div class="form-group">
+              <label>Телефон или WhatsApp</label>
+              <input type="tel" name="phone" placeholder="+7 ___" required />
+            </div>
+            <div class="form-group">
+              <label>Сообщение</label>
+              <textarea name="message" rows="3" placeholder="Ваш вопрос..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--whatsapp btn--full">Отправить в WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#" class="logo">
+        <span class="logo__icon">📱</span>
+        <span class="logo__text">Mobile<span class="logo__dot">.tau</span></span>
+      </a>
+      <p>Магазин телефонов и ремонтный сервис</p>
+    </div>
+    <div class="footer__links">
+      <h4>Навигация</h4>
+      <a href="#catalog">Каталог</a>
+      <a href="#services">Услуги</a>
+      <a href="#about">О нас</a>
+      <a href="#contact">Контакты</a>
+    </div>
+    <div class="footer__services">
+      <h4>Услуги</h4>
+      <a href="#services">Ремонт экрана</a>
+      <a href="#services">Замена батареи</a>
+      <a href="#services">Прошивка</a>
+      <a href="#services">Разблокировка</a>
+    </div>
+    <div class="footer__contact">
+      <h4>Контакты</h4>
+      <a href="https://wa.me/77753533067" target="_blank">+7 775 353 30 67</a>
+      <p>Пн–Вс: 9:00–21:00</p>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>© 2025 Mobile.tau. Все права защищены.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== REPAIR FORM MODAL ========== -->
+<div class="modal-overlay" id="repairModal">
+  <div class="modal">
+    <button class="modal__close" id="modalClose">✕</button>
+    <div class="modal__header">
+      <div class="modal__icon">🔧</div>
+      <h2>Узнать стоимость ремонта</h2>
+      <p>Заполните форму — мы посчитаем стоимость и свяжемся с вами</p>
+    </div>
+    <form id="repairForm" class="repair-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Ваше имя *</label>
+          <input type="text" name="name" placeholder="Алихан" required />
+        </div>
+        <div class="form-group">
+          <label>Телефон / WhatsApp *</label>
+          <input type="tel" name="phone" placeholder="+7 775 000 00 00" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Модель телефона *</label>
+        <input type="text" name="model" placeholder="Например: iPhone 13 Pro" required />
+      </div>
+      <div class="form-group">
+        <label>Описание проблемы *</label>
+        <textarea name="problem" rows="3" placeholder="Опишите что случилось с телефоном..." required></textarea>
+      </div>
+      <div class="form-group">
+        <label>Фото устройства (необязательно)</label>
+        <div class="file-upload" id="fileUpload">
+          <input type="file" id="photoInput" accept="image/*" multiple />
+          <div class="file-upload__area">
+            <span class="file-upload__icon">📷</span>
+            <p>Нажмите или перетащите фото</p>
+            <span class="file-upload__hint">PNG, JPG до 10 МБ</span>
+          </div>
+          <div class="file-upload__preview" id="photoPreview"></div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn--whatsapp btn--full btn--lg">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Отправить в WhatsApp
+      </button>
+      <p class="repair-form__note">
+        * Фото нужно будет прикрепить вручную в WhatsApp после открытия чата
+      </p>
+    </form>
+  </div>
+</div>
+
+<!-- ========== FLOATING WHATSAPP ========== -->
+<a href="https://wa.me/77753533067" target="_blank" class="wa-float" title="Написать в WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  <span class="wa-float__pulse"></span>
+</a>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
